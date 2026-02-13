@@ -1,0 +1,48 @@
+:root {
+  font-family: 
+  "Bodoni MT",
+  "Bodoni 72",
+  "Didot",
+             "Didot LT STD",
+             "Hoefler Text",
+             "Garamond",
+             "Times New Roman",
+             serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #434343;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgba(254, 223, 225, 0.5);
+}
+
+.description {
+  font-size: 1.6em;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+
